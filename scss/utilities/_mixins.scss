@@ -1,7 +1,7 @@
 //flex-basis 
 @mixin flex-basis{
     @for $i from 1 through 12 {
-    &-#{$i}{
+    .col-#{$i}{
       flex-basis: #{$i*8.33};
     }
   }
